@@ -1,0 +1,4 @@
+
+include ChangeLog LICENSE Makefile
+recursive-include ttlib *.kv
+recursive-include t *.t

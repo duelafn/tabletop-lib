@@ -1,2 +1,12 @@
 
+v0.2.0, 2012-05-09 -- tools for TTTraders
+
+	New:
+	  - HexMap - general hex map class
+	  - TTApp  - general app for TableTop games
+	  - TTSettingInt - integer setting class
+	  - paths for finding XDG dirs
+	  - inclide glyphicons for some new widgets
+
+
 v0.1.0, 2012-04-14 -- Initial packaging.

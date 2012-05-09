@@ -1,0 +1,23 @@
+#:kivy 1.0
+
+<TTSettingInt>:
+    plus: _plus
+    minus: _minus
+
+    Label:
+        text: str(root.value)
+        pos: root.pos
+
+    Button:
+        id: _minus
+        on_press: root.step_down(self)
+        Image:
+            size: self.parent.size
+            pos: self.parent.pos
+
+    Button:
+        id: _plus
+        on_press: root.step_up(self)
+        Image:
+            size: self.parent.size
+            pos: self.parent.pos

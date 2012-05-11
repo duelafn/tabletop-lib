@@ -46,7 +46,7 @@ class TTApp(App):
                 if self.theme != value:
                     if self.theme != 'default':
                         kivy.resources.resource_remove_path(self.data_dir("themes", self.theme))
-                    if theme != 'default':
+                    if value != 'default':
                         kivy.resources.resource_add_path(self.data_dir("themes", value))
                     self.theme = value
 

@@ -1,4 +1,8 @@
 
+v0.2.2, 2012-05-11 -- Add ttlib/data/glyphicons to resource path for TTApp
+
+v0.2.1, 2012-05-11 -- Fix bug in theme loading
+
 v0.2.0, 2012-05-09 -- tools for TTTraders
 
 	New:

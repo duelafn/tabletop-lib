@@ -11,11 +11,14 @@ from kivy.app import App
 from kivy.core.window import Window
 from kivy.properties import StringProperty
 
+from ttlib import ttlib_dir
+
 class TTApp(App):
     screen = StringProperty("")
 
     def build(self):
         super(TTApp, self).build()
+        kivy.resources.resource_add_path(ttlib_dir("data/glyphicons"))
         kivy.resources.resource_add_path(self.data_dir("glyphicons"))
         kivy.resources.resource_add_path(self.data_dir("themes/default"))
         self.theme = self.config.get(self.app_name, 'theme')

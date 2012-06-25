@@ -1,4 +1,6 @@
 
+v0.3.0, 2012-06-24 -- Add ColorChooserGrid
+
 v0.2.2, 2012-05-11 -- Add ttlib/data/glyphicons to resource path for TTApp
 
 v0.2.1, 2012-05-11 -- Fix bug in theme loading

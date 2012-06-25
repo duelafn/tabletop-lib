@@ -2,7 +2,7 @@
 """TabletopLib - Tools and Kivy widgets for Tabletop Games
 """
 
-__version__ = "0.2.2"
+__version__ = "0.3.0"
 
 
 import os.path

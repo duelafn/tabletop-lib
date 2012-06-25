@@ -1,0 +1,21 @@
+#:kivy 1.0
+
+GridLayout:
+    widget: widget
+    button: button
+    chooser: chooser
+    cols: 2
+
+    Label:
+        text: "Choose Color"
+
+    ColorChooserGrid:
+        rows: 6
+        id: chooser
+
+    Widget:
+        id: widget
+
+    Button:
+        id: button
+        text: "Button"
